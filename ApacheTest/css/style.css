@@ -1,0 +1,92 @@
+form {
+  width: 250px;
+}
+
+input[type="submit"] {
+  padding: 5px 20px;
+  font-size: inherit;
+  border-style: none;
+  border: 1px solid #dcdcdc;
+  margin-left: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #dcdcdc;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  font-size: inherit;
+  padding: 3px;
+  margin: 5px;
+}
+
+textarea {
+  font-size: inherit;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container {
+  padding: 30px;
+}
+
+
+
+.post-wrapper {
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.post {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+
+.post:hover {
+  border: 1px solid #dcdcdc;
+  background-color: #dcdcdc;  
+}
+
+
+.reply{
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.reply {
+  list-style: none;
+  font-size: 80%;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.toggle-content  {
+  padding-left: 30px;
+}
+
+
+.pagination {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pagination .currentPage {
+  background-color: #dcdcdc;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #dcdcdc;
+}
+
+.pagination a:hover {
+  background-color: #dcdcdc;
+}
+
+
+.send-form {
+  padding-left: 15px;
+}
+

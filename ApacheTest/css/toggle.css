@@ -1,0 +1,28 @@
+/************************************
+** トグル表示ボタン
+************************************/
+.toggle-wrap .toggle-button {
+  display: block;
+  cursor: pointer;
+  padding: 3px 10px;
+  background-color: #fff;
+  margin-bottom: 1em;
+  border-radius: 3px;
+}
+
+
+
+
+.toggle-wrap > input[type="checkbox"]{
+  display: none;
+}
+
+
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
